@@ -3,6 +3,7 @@
 	<head>
 		<title>The DSO Newsletter</title>
 		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="grid.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,16 +13,41 @@
 
 	</head>
 	<body>
-		<center><h1>The DSO Newsletter</h1></center>
-		<div id="header">
-			<h2>About</h2>
-		</div>
-		<div id="box">
+		<section class="container-fluid">
+			<center><h1>The DSO Newsletter</h1></center>
+		</section>
+		<section class="container-fluid" id="header">
+			<div class="row">
+				<div  class="col-12">
+					<ul>
+						<li>About</li>
+						<li>Events</li>
+						<li>Volunteer</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="container">
+			<div class="row">
+				<div id="box">
+						<p class="col-6">
+							DSO Mixers are back!
+
+							<br><br>Build new connections and catch up with old peers this month at our back to school mixer! There will be snacks and fun games, making this a relaxed and inviting opportunity to chit chat with your fellow students! We can’t wait to see you there!
+
+							<br><br>Date: September 15th
+							<br>Location: Design Workroom (11-211)
+							<br>Time: 5:30PM
+						</p>
+						<img src="images/DSO_BTS_Mixer_Square.png" class="col-3" id="mixer">
+				</div>
+				<div id="innerbox">
 			
 
-		</div>
-
-		
+				</div>
+			</div>
+		</section>
 
 
 	</body>

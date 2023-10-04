@@ -1,0 +1,100 @@
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	/*background-color: #ccc;*/
+
+}
+
+.container-fluid{
+	width: 100%;
+	/*background-color: lightblue;*/
+	background-color: rgb(248, 242, 231, 1.0);	
+
+}
+
+.container-fluid .row {
+	width: 1170px;
+	margin: 0 auto;
+	/*background-color: lightgreen;*/
+}
+
+.container-fluid#header {
+
+}
+
+.row {
+	margin-bottom: 30px;
+	/*background-color: pink;*/	
+}
+
+.col-1 {
+	width: 67.5px;
+	margin: 0 15px;
+	background-color: peachpuff;
+}
+
+.col-2 {
+	width: 165px;
+	margin: 0 15px;
+	background-color: peachpuff;
+}
+
+.col-3 {
+	width: 262.5px;
+	margin: 0 15px;
+	background-color: peachpuff;
+}
+
+.col-4 {
+	width: 360px;
+	margin: 0 15px;
+	background-color: peachpuff;
+}
+
+.col-5 {
+	width: 457.5px;
+	margin: 0 15px;
+	background-color: peachpuff;
+}
+
+.col-6 {
+	width: 555px;
+	margin: 0 15px;
+	/*background-color: peachpuff;*/
+}
+
+.col-7 {
+	width: 652.5px;
+	margin: 0 15px;
+	background-color: peachpuff;
+}
+
+.col-8 {
+	width: 750px;
+	margin: 0 15px;
+	background-color: peachpuff;
+}
+
+.col-9 {
+	width: 847.5px;
+	margin: 0 15px;
+	background-color: peachpuff;
+}
+
+.col-10 {
+	width: 945px;
+	margin: 0 15px;
+	background-color: peachpuff;
+}
+
+.col-11 {
+	width: 1042.5px;
+	margin: 0 15px;
+	background-color: peachpuff;
+}
+
+.col-12 {
+	width: 1140px;
+	margin: 0 15px;
+	/*background-color: peachpuff;*/
+}
