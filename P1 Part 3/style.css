@@ -1,0 +1,30 @@
+html{
+	background-color: rgb(248, 242, 231, 1.0);
+}
+h1{
+	font-family: 'Young Serif', serif;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-bottom: 0px;
+	color: rgb(245, 130, 32, 1.0);
+}
+h2{
+	font-family: 'Young Serif', serif;
+	color: white;
+	padding-left: 25%;
+}
+div#header{
+	padding: 30px;
+	margin: 10px;
+	background-color: rgb(245, 130, 32, 1.0);
+	border-radius: 20px;
+}
+div#box{
+	background-color: rgb(241, 88, 34, 1.0);
+	padding: 100px;
+	margin: 10px;
+	border-radius: 20px;
+}
+div#innerbox{
+
+}
