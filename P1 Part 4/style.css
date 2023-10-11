@@ -1,0 +1,141 @@
+/* box model fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* clearfix */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/***************************/
+
+/* Background Pattern */
+body{
+  background-image: url("images/pattern-patches-beige.png");
+}
+
+/* Nintendo Logo */
+img#nintendo{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  height: 55px;
+  float: left;
+}
+
+/* Header Nav Bar */
+#navbar{
+  background-color: #e4000f;
+  height: 65px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Header Nav Bar Text */
+.topbar{
+  color: white;
+  font-family: Helvetica;
+  font-size: 20px;
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-family: 'Gabarito', sans-serif;
+}
+
+/* Hero Images */
+img.hero{
+  width:33.33%;
+  opacity: 100%;
+  float: left;
+}
+
+/* h1 Base Settings */
+h1{
+  font-family: 'Gabarito', sans-serif;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* h1 Settings that allow for more bottom space */
+h1.flower{
+  margin-bottom: 50px;
+}
+
+/* h1 Settings that allow for a larger title */
+h1#title{
+  font-size: 60px;
+}
+
+/* Image Settings for the game logo image */
+img#title{
+  width: 25%;
+}
+
+/* Image Settings for the power-up images */
+img.powerup{
+  height: 300px;
+}
+
+/* Image Settings for the Nintendo Switch logo */
+img#switchlogo{
+  height: 200px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+/* Div Settings for the container holding the power-up images */
+div.powerup{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Link Base Settings */
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* Link Settings for the button */
+a#button{
+  color: white;
+  font-family: 'Gabarito', sans-serif;
+  text-align: center;
+  background-image: url("images/pattern-patches-accent-blue.png");
+  padding: 20px;
+  font-size: 40px;
+  border-radius: 25px;
+}
+
+/* Image Settings for hovering over the button */
+a#button:hover{
+  background-image: url("images/pattern-patches-beige.png");
+  color: #0059c7;
+  transition: 0.5s;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #0059c7;
+}
+
+/* Footer Container Bar */
+#footer{
+  margin-top: 60px;
+  background-color: #e4000f;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
