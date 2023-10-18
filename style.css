@@ -1,4 +1,9 @@
 /* Main style sheet for Hub Page Website */
+body{
+	height: 100%;
+	overflow: hidden;
+}
+
 h1{
 	font-family: 'Urbanist', sans-serif;
 	color: rgb(255, 195, 0);
@@ -34,9 +39,10 @@ a#first{
 }
 a{
 	font-family: 'Unbounded', sans-serif;
-	color: rgb(88, 24, 69);
+	color: whitesmoke;
 	margin: 20px;
 	margin-left: 30px;
+	margin-bottom: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin-right: 0px;
@@ -44,10 +50,18 @@ a{
 	padding-left: 20px;
 	font-size: 20px;
 	text-decoration: none;
-	border: 3px solid peachpuff;
+	border: 3px solid mediumvioletred;
 	border-radius: 5px;
-	background-color: peachpuff;
+	background-color: mediumvioletred;
+
 }
+
+a:hover{
+	background-color: blue;
+	color: blueviolet;
+
+}
+
 div#yellowbox{
 	display:block;
 	color: rgb(255, 195, 0);
@@ -59,4 +73,38 @@ div#yellowbox{
 	height: 100%;
 	position:absolute;
 	top:0px;
+	z-index: 2;
+}
+
+marquee {
+	font-size: 150pt;
+	font-family: "acumin-pro-condensed", sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	letter-spacing: -12px;
+	color: mediumvioletred;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: -100px;
+	margin-bottom: 0;
+	animation: marquee 5s linear infinite;
+	z-index: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+marquee.first {
+	bottom: end;
+	z-index: auto;
+}
+
+#thebottom{
+	margin-top: 20px;
+	padding-top: 70vh;
+	position: relative;
+}
+
+div.marquee{
+	position: absolute;
+	bottom: 0;
 }
