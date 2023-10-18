@@ -93,7 +93,7 @@ marquee {
 	padding-bottom: 0;
 	margin-top: -100px;
 	margin-bottom: 0;
-	animation: marquee 5s linear infinite;
+	animation: marquee 0s linear infinite;
 	z-index: auto;
 	overflow: hidden;
 	position: relative;
