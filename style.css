@@ -33,7 +33,7 @@ h3{
 	margin-top: 0px;
 	font-size: 30px;
 	padding-left: 80px;
-	z-index: 3;
+	z-index: 4;
 }
 a#first{
 	margin-left: 100px;
@@ -54,7 +54,7 @@ a{
 	border: 3px solid mediumvioletred;
 	border-radius: 5px;
 	background-color: mediumvioletred;
-	z-index: auto;
+	z-index: 0;
 
 }
 
@@ -66,6 +66,10 @@ a:hover{
 	padding-bottom: 100vh;
 	border-color: rgb(255, 195, 0);
 	transition: 2s;
+}
+
+a:not(:hover){
+	transition: 1s;
 }
 
 div#yellowbox{
@@ -113,4 +117,8 @@ marquee.first {
 div.marquee{
 	position: absolute;
 	bottom: 0;
+}
+
+.infront{
+	z-index: 3;
 }
